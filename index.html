@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talents du Football</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-gradient text-white text-center py-5">
+        <h1>Les Nouveaux Talents du Football</h1>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <!-- Talent 1 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow-lg border-0 rounded-lg" data-bs-toggle="modal" data-bs-target="#modalWillianEstevao">
+                    <img src="estevao.jpeg" class="card-img-top" alt="Willian Estevao">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Willian Estevao</h5>
+                        <p class="card-text">Un jeune prodige brésilien avec une technique impressionnante et une vision du jeu exceptionnelle.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Talent 2 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow-lg border-0 rounded-lg" data-bs-toggle="modal" data-bs-target="#modalColePalmer">
+                    <img src="palmer.jpeg" class="card-img-top" alt="Cole Palmer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cole Palmer</h5>
+                        <p class="card-text">Un attaquant prometteur anglais avec une rapidité et une créativité qui impressionnent.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Talent 3 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow-lg border-0 rounded-lg" data-bs-toggle="modal" data-bs-target="#modalEndrick">
+                    <img src="endrick.jpeg" class="card-img-top" alt="Endrick">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Endrick</h5>
+                        <p class="card-text">Un jeune talent brésilien dont les performances attirent déjà l'attention des plus grands clubs européens.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Talent 4 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow-lg border-0 rounded-lg" data-bs-toggle="modal" data-bs-target="#modalLamineYamal">
+                    <img src="yamal.jpeg" class="card-img-top" alt="Lamine Yamal">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lamine Yamal</h5>
+                        <p class="card-text">Un prodige espagnol qui allie technique, vision et dribble pour émerveiller les spectateurs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modals -->
+    <!-- Modal Willian Estevao -->
+    <div class="modal fade" id="modalWillianEstevao" tabindex="-1" aria-labelledby="modalWillianEstevaoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalWillianEstevaoLabel">Willian Estevao</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Des détails supplémentaires sur Willian Estevao peuvent être ajoutés ici, comme ses statistiques, ses réalisations récentes, etc.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Repeat similar modals for Cole Palmer, Endrick, and Lamine Yamal -->
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Présentation des talents du football</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
